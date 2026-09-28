@@ -1,0 +1,10 @@
+# Largest |S/N| of each channel in the Planck PR4 scan, at the exact lattice point of the scan.
+# These are the largest excursions of a scan over ~1e5 correlated templates, not significances.
+# fnl_per_coupling = f_NL^(n)/c_n at that point; coupling_hat = fnl_hat / fnl_per_coupling.
+channel,operator,coupling,lambda,mu_eff,meff_over_H,m2_over_H2,fnl_hat,sigma_fnl,snr,lattice_step,fnl_per_coupling,coupling_hat,sigma_coupling
+0,-lambda_2 pidot_c^3,lambda_2 H^2,2.305,2.545,2.9542,3.4140,-121.14,43.89,-2.7600,0.01,74.3753,-1.629,0.5901
+1par,-pidot_c^2 sigma/(2 Lambda_2),H/Lambda_2,3.695,3.025,3.3765,-2.2524,-162.24,60.18,-2.6957,0.01,-54.8177,2.96,1.098
+1perp,-(d_i pi_c)^2 sigma/(2 Lambda_1 a^2),H/Lambda_1,4.000,2.100,2.5807,-9.3400,-39.36,26.54,-1.4831,0.10,-6286.2,0.006262,0.004222
+LI,-(d_mu pi_c)^2 sigma/(2 Lambda_1),H/Lambda_1,2.615,1.415,2.0621,-2.5860,-43.43,26.55,-1.6358,0.03,-1402.03,0.03097,0.01894
+2,-(alpha/2) pidot_c sigma^2,alpha,1.445,1.835,2.3701,3.5292,-6.69,6.34,-1.0549,0.03,-2.48631,2.689,2.549
+3,-mu sigma^3,mu/H,2.325,3.095,3.4393,6.4234,-154.23,57.26,-2.6934,0.01,-2.87973,53.56,19.88
