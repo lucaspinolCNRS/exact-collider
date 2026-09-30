@@ -1,12 +1,12 @@
 cff-version: 1.2.0
-message: "If you use these shapes, data or code, please cite the companion paper below and arXiv:2607.15251."
+message: "If you use these shapes, data or code, please cite arXiv:2609.38167 and arXiv:2607.15251."
 title: "exact-collider: exact bispectra in strongly mixed multifield inflation (explorer, data and code)"
 type: software
 version: "1.0.0"
 abstract: >-
   Tree-level primordial bispectra of the effective field theory of inflationary fluctuations extended
   by a massive isocurvature scalar, with the curvature-isocurvature mixing resummed to all orders:
-  an in-browser explorer of the six shapes, the raw tables of the companion paper with its comparison
+  an in-browser explorer of the six shapes, the raw tables of arXiv:2609.38167 with its comparison
   to Planck PR4, and two Python modules, with an example notebook, that compute the shapes.
 authors:
   - family-names: Pinol
@@ -31,7 +31,8 @@ preferred-citation:
       orcid: "https://orcid.org/0000-0002-2218-5929"
   title: "Exact bispectra in strongly mixed multifield inflation"
   year: 2026
-  # once posted, add:  url: "https://arxiv.org/abs/XXXX.XXXXX"
+  doi: "10.48550/arXiv.2609.38167"
+  url: "https://arxiv.org/abs/2609.38167"
 references:
   - type: article
     authors:
@@ -39,6 +40,7 @@ references:
         given-names: Lucas
     title: "New exact bispectrum shapes in multifield inflation"
     year: 2026
+    doi: "10.48550/arXiv.2607.15251"
     url: "https://arxiv.org/abs/2607.15251"
   - type: article
     authors:

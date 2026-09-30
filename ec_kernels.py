@@ -1,7 +1,7 @@
 """
 ec_kernels.py -- the master kernel of the Exact-collider project and everything that descends from it.
 
-CONVENTIONS (those of the companion paper)
+CONVENTIONS (those of the companion paper, arXiv:2609.38167)
   nu = nu_eff = sqrt(9/4 - m_eff^2/H^2) = i*mu_eff  (heavy field; general complex nu accepted)
   lam = rho/H,   z_a = i a lam/2,   a = +/- is the channel index.
   omega_a(u) = u^{z_a-1}(1+u)^{-z_a} 2F1(1/2-nu, 1/2+nu; 1+2z_a; -u) / Gamma(z_a),   omega_{-a} = omega_a^*

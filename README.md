@@ -4,7 +4,7 @@ Tree-level primordial bispectra of the effective field theory of inflationary fl
 a massive isocurvature scalar σ, with the curvature–isocurvature mixing ρ π̇<sub>c</sub>σ resummed to
 all orders in λ = ρ/H. This repository accompanies
 
-* L. Pinol, *Exact bispectra in strongly mixed multifield inflation*, arXiv:XXXX.XXXXX
+* L. Pinol, *Exact bispectra in strongly mixed multifield inflation*, [arXiv:2609.38167](https://arxiv.org/abs/2609.38167)
 * L. Pinol, *New exact bispectrum shapes in multifield inflation*, [arXiv:2607.15251](https://arxiv.org/abs/2607.15251)
 
 | file | what it is |
@@ -20,8 +20,9 @@ all orders in λ = ρ/H. This repository accompanies
 point with λ < 6 and 0.5 < μ<sub>eff</sub> < 6 — the weight, the leg kernels and the
 Schwinger-parameter integral are evaluated live, not interpolated — draws them over all triangles and
 on isosceles configurations, compares a single operator with the Planck PR4 binned bispectrum, and
-exports what it draws as CSV. It is the file `index.html`, which also runs offline: download it and
-open it in a browser.
+exports what it draws as CSV. It is a single file, `index.html`, which also runs offline: download it with the link at the bottom
+of the explorer, or with the download button of [`index.html`](https://github.com/lucaspinolCNRS/exact-collider/blob/main/index.html),
+and open it in a browser.
 
 Its controls start behind a small game. To skip it, give the gatekeeper the word `lucas.pinol`, or
 open **<https://lucaspinolcnrs.github.io/exact-collider/?open>**.

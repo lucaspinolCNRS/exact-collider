@@ -1,5 +1,5 @@
 """
-ec_shapes.py -- the five bispectrum channels from the dressed legs.
+ec_shapes.py -- the five bispectrum channels from the dressed legs (arXiv:2609.38167).
 
 Shape:  S = (k1 k2 k3)^2 B_zeta / [(2 pi)^4 Delta_zeta^4],   e_j = k_j/k_t,   beta_j = 2 xi e_j.
 Master formulas (Re[] projection; the 2Im of the in-in formula has been converted using (i k_t)^{-(N+1)}):
